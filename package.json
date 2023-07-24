@@ -66,21 +66,6 @@
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-//  "scripts": {
-//    "build": "gatsby build",
-//    "develop": "gatsby develop",
-//    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-//    "start": "npm run develop",
-//    "serve": "gatsby serve",
-//    "clean": "gatsby clean",
-//    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-//    "deploy-gh": "gatsby build && gh-pages -d public",
-//    "deploy-gh-prefix-paths": "gatsby build --prefix-paths && gh-pages -d public",
-//    "check:lint": "eslint . --ext .js,.jsx",
-//    "fix:lint": "eslint . --fix --ext .js,.jsx",
-//    "check:prettier": "prettier -c .",
-//    "fix:prettier": "prettier -c --write ."
-//  },
   "repository": {
     "type": "git",
     "url": "https://github.com/devHudi/gatsby-starter-hoodie"
