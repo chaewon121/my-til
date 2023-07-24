@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-hoodie",
+  "name": "my-til",
   "private": false,
-  "description": "gatsby-starter-hoodie is a gatsby theme developed for developers to write tech blogs.",
-  "homepage": "https://devhudi.github.io/gatsby-starter-hoodie/",
+  "description": "Hello, This is my blog",
+  "homepage": "https://chaewon121.github.io/my-til",
   "version": "0.2.0",
-  "author": "Hudi",
+  "author": "chaewon121",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "babel-plugin-styled-components": "^2.1.4",
@@ -64,19 +64,23 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy-gh": "gatsby build && gh-pages -d public",
-    "deploy-gh-prefix-paths": "gatsby build --prefix-paths && gh-pages -d public",
-    "check:lint": "eslint . --ext .js,.jsx",
-    "fix:lint": "eslint . --fix --ext .js,.jsx",
-    "check:prettier": "prettier -c .",
-    "fix:prettier": "prettier -c --write ."
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
+//  "scripts": {
+//    "build": "gatsby build",
+//    "develop": "gatsby develop",
+//    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+//    "start": "npm run develop",
+//    "serve": "gatsby serve",
+//    "clean": "gatsby clean",
+//    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+//    "deploy-gh": "gatsby build && gh-pages -d public",
+//    "deploy-gh-prefix-paths": "gatsby build --prefix-paths && gh-pages -d public",
+//    "check:lint": "eslint . --ext .js,.jsx",
+//    "fix:lint": "eslint . --fix --ext .js,.jsx",
+//    "check:prettier": "prettier -c .",
+//    "fix:prettier": "prettier -c --write ."
+//  },
   "repository": {
     "type": "git",
     "url": "https://github.com/devHudi/gatsby-starter-hoodie"
